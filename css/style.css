@@ -1,0 +1,19 @@
+p {
+    color: orange;
+      background-color: purple;
+    font-size: 20px;
+}
+
+
+body {
+    background-color: red
+
+    ;
+}
+
+	/* Här skriver du vad som skall ändras. */
+.li{
+	color: black;
+	font-size: 25px;
+	
+}

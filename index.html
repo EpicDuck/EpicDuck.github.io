@@ -1,0 +1,77 @@
+<!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+         <!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+           <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Mina hemsida</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Spel</a></li>
+                        <li><a href="menyval2.html">Judo</a></li>
+                        <li><a href="menyval3.html">Spel "extra"</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+      <h1>Mitt innehåll</h1>
+      <p> Den här hemsidan handlar mest om spel</p>
+      <h5> Här är några länkar till bra spel hemsidor</h5>
+      <ul>   
+          <li><a href="http://www.nitrome.com/">Nitrome</a></li>
+          <li><a href="http://www.playretrogames.com/">RetroGamesOnline</a></li>
+          <li><a href="http://kizi.com/">Kizi</a></li>
+          <li><a href="http://www.spelo.se/">Spelo.se</a></li>
+          <li><a href="http://www.coolaspel.se">Coolaspel</a></li>
+          <li><a href="http://www.maxgames.com">MaxGames</a></li>
+          <li><a href="http://www.megaspel.se/">MegaSpel.se</a></li>
+      </ul>
+        <p> En bild som inte har med sidan att göra men som är cool</p>
+        
+        <img src="bilder/WoW.jpg">
+        <p> Några katt bilder</p>
+        <img width="485" height="402" src="bilder/Katt1.jpg">
+        <img width="485" height="402" src="bilder/Katt2.jpg">
+        <img width="485" height="402" src="bilder/Katt3.jpg">
+        <img width="485" height="402" src="bilder/Katt4.jpg">
+        <img width="485" height="402" src="bilder/Katt5.jpg">
+        <img width="485" height="402" src="bilder/Katt8.jpg">
+        <img width="485" height="402" src="bilder/Katt10.jpg">
+        <img width="485" height="402" src="bilder/Katt11.jpg">
+    </main>
+</body>
+</html>
